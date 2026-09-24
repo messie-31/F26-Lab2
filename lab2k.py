@@ -1,8 +1,6 @@
-# Add comments before you do anything else.
-
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Mehtaash Kaur
+# Date: 2026-09-23
 # Purpose: use for loop.
 # Usage: ./lab2k.py
 
@@ -15,3 +13,8 @@ fruits = ["apple", "banana", "cherry", "date"]
 #    print(fruit)
 
 #for loop is commonly used with range functions. Here's another example using the range function to print numbers from 0  to 5.
+total=0
+for i in range(1,101):
+    if i%2==0:
+        total+=1
+print(f"The sum of all even numbers from 1 to 100 is: {total}")
